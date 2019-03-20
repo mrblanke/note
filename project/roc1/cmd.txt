@@ -1,0 +1,7 @@
+https://github.com/mrblanke/note.git
+
+echo "at+spatgetcp2info\r" >/proc/mdbg/at_cmd
+echo dma_alloc >/dev/kchar
+echo print_buf >/dev/kchar
+echo startwcn >/proc/mdbg/at_cmd
+echo "at+getantnum\r" >/proc/mdbg/at_cmd
